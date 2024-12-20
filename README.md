@@ -1,4 +1,4 @@
-# Project_TCC v.1.0.2 for Unity6
+![スクリーンショット 2024-12-13 14 41 26](https://github.com/user-attachments/assets/b687f66d-7458-4b8f-835d-c08b0a7353b3)# Project_TCC v.1.0.2 for Unity6
 
 新バージョンであるUnity6でTCCを起動したときに起こる問題について対処について記述していきます。
 
@@ -7,8 +7,16 @@ Unity6ではCinemachine3が最新バージョンになっているためジェ�
 
 ### 対処法
 Unity.VisualScripting.Generatedフォルダを削除してUnityを再起動してください。
-PackageManagerからVisualScriptingのプラグインを削除する必要がある場合もあります。
+ProjectSettingsからRegenerate Nodesを押します。
 
+## ScriptMachineを追加しようとするとInspecterに以下の表示がでる。
+<img width="539" alt="ScriptMachineInspectersAreDisable" src="https://github.com/user-attachments/assets/4b8d73e0-c010-43a9-9f0f-7aa400ae96fa" />
+
+PackageManagerからVisualScriptingのプラグインを削除してUnityを再起動してください。
+なぜか新バージョンのUpdateではうまくいきません。
+
+## OrignReadme
+--------
 # Project_TCC v.1.0.2
 TCC stands for **Tiny Character Controller**. TCC provides a comprehensive solution for creating your own game.
 
