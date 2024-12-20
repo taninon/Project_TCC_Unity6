@@ -7,8 +7,13 @@ Unity6ではCinemachine3が最新バージョンになっているためジェ�
 
 ### 対処法
 Unity.VisualScripting.Generatedフォルダを削除してUnityを再起動してください。
+ProjectSettingsからRegenerate Nodesを押します。
 
-PackageManagerからVisualScriptingのプラグインを削除する必要がある場合もあります。
+## ScriptMachineを追加しようとするとInspecterに以下の表示がでる。
+<img width="539" alt="ScriptMachineInspectersAreDisable" src="https://github.com/user-attachments/assets/4b8d73e0-c010-43a9-9f0f-7aa400ae96fa" />
+
+PackageManagerからVisualScriptingのプラグインを削除してUnityを再起動してください。
+なぜか新バージョンのUpdateではうまくいきません。
 
 ## OrignReadme
 --------
