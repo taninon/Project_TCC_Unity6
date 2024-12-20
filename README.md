@@ -7,8 +7,11 @@ Unity6ではCinemachine3が最新バージョンになっているためジェ�
 
 ### 対処法
 Unity.VisualScripting.Generatedフォルダを削除してUnityを再起動してください。
+
 PackageManagerからVisualScriptingのプラグインを削除する必要がある場合もあります。
 
+## OrignReadme
+--------
 # Project_TCC v.1.0.2
 TCC stands for **Tiny Character Controller**. TCC provides a comprehensive solution for creating your own game.
 
