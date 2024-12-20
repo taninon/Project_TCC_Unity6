@@ -1,4 +1,4 @@
-![スクリーンショット 2024-12-13 14 41 26](https://github.com/user-attachments/assets/b687f66d-7458-4b8f-835d-c08b0a7353b3)# Project_TCC v.1.0.2 for Unity6
+# Project_TCC v.1.0.2 for Unity6
 
 新バージョンであるUnity6でTCCを起動したときに起こる問題について対処について記述していきます。
 
