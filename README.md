@@ -1,6 +1,7 @@
 # Project_TCC v.1.0.2 for Unity6
 
 新バージョンであるUnity6でTCCを起動したときに起こる問題について対処について記述していきます。
+当リポジトリでは対処済みのものもあります。
 
 ## VisualScriptとCinemachine3に関する問題
 Unity6ではCinemachine3が最新バージョンになっているためジェネレートされたVisualScriptのコードとnamespaceの不整合が起こることがあります。
@@ -12,8 +13,18 @@ ProjectSettingsからRegenerate Nodesを押します。
 ## ScriptMachineを追加しようとするとInspecterに以下の表示がでる。
 <img width="539" alt="ScriptMachineInspectersAreDisable" src="https://github.com/user-attachments/assets/4b8d73e0-c010-43a9-9f0f-7aa400ae96fa" />
 
+### 対処法
 PackageManagerからVisualScriptingのプラグインを削除してUnityを再起動してください。
+
 なぜか新バージョンのUpdateではうまくいきません。
+
+
+## サンプルのUnityChanのシェーダーがピンク色になる
+
+### 対処法
+PackageManagerから Unity Toon Shaderを0.11.0にUpdateする。
+
+
 
 ## OrignReadme
 --------
